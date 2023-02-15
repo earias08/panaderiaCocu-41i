@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- agregar las 3 etiquetas meta -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
@@ -73,7 +78,13 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto">Ver mas</button>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalProducto"
+              >
+                Ver mas
+              </button>
             </div>
           </article>
         </aside>
@@ -97,17 +108,24 @@
         <aside class="col-md-6 col-lg-3 mb-3">
           <article class="card">
             <img
-              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              src="../img/productos/Torta-de-chocolate_00098_portfolio.jpg"
               class="card-img-top"
-              alt="Medialuna"
+              alt="Tarta de Chocolate"
             />
             <div class="card-body">
-              <h5 class="card-title">Medialuna</h5>
+              <h5 class="card-title">Tarta</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="error404.html" class="btn btn-primary">Ver mas</a>
+              <button
+                class="btn btn-primary"
+                data-bs-target="#modalTarta"
+                data-bs-toggle="modal"
+              >
+                Ver más
+              </button>
+              <!-- <a href="error404.html" class="btn btn-primary">Ver mas</a> -->
             </div>
           </article>
         </aside>
@@ -236,12 +254,64 @@
               ></button>
             </div>
             <div class="modal-body">
-              <img src="../img/productos/Croissant_00018_portfolio1.jpg" alt="Medialuna" class="w-100 mb-3">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi odit odio beatae accusantium asperiores, sed repellat necessitatibus ipsam fugiat fuga excepturi doloribus magni, aspernatur aperiam qui ad repudiandae? Cupiditate quo veritatis maxime expedita saepe aliquam incidunt odit odio soluta quae et omnis iste, dolorem ab. Fugiat eius distinctio commodi ipsam.</p>
+              <img
+                src="../img/productos/Croissant_00018_portfolio1.jpg"
+                alt="Medialuna"
+                class="w-100 mb-3"
+              />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Eligendi odit odio beatae accusantium asperiores, sed repellat
+                necessitatibus ipsam fugiat fuga excepturi doloribus magni,
+                aspernatur aperiam qui ad repudiandae? Cupiditate quo veritatis
+                maxime expedita saepe aliquam incidunt odit odio soluta quae et
+                omnis iste, dolorem ab. Fugiat eius distinctio commodi ipsam.
+              </p>
             </div>
             <div class="modal-footer">
-             <p>Precio: <b>$890</b></p>
-             <!-- <p>Precio: <span class="fw-bold">$890</span></p> -->
+              <p>Precio: <b>$890</b></p>
+              <!-- <p>Precio: <span class="fw-bold">$890</span></p> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Modal de Tarta-->
+      <section
+        class="modal fade"
+        id="modalTarta"
+        tabindex="-1"
+        aria-labelledby="modalTartaLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="modalTartaLabel">Tarta</h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="../img/productos/Torta-de-chocolate_00098_portfolio.jpg"
+                alt="Tarta de chocolate"
+                class="w-100 mb-3"
+              />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Eligendi odit odio beatae accusantium asperiores, sed repellat
+                necessitatibus ipsam fugiat fuga excepturi doloribus magni,
+                aspernatur aperiam qui ad repudiandae? Cupiditate quo veritatis
+                maxime expedita saepe aliquam incidunt odit odio soluta quae et
+                omnis iste, dolorem ab. Fugiat eius distinctio commodi ipsam.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <p>Precio: <b>$3000</b></p>
+              <!-- <p>Precio: <span class="fw-bold">$890</span></p> -->
             </div>
           </div>
         </div>
@@ -258,14 +328,14 @@
             />
           </aside>
           <aside class="col-md-4">
-            <h5 class='text-secondary'>Horarios de atención</h5>
+            <h5 class="text-secondary">Horarios de atención</h5>
             <ul>
               <li>Lunes a viernes de 08 a 21hs</li>
               <li>Sábado de 08 a 19hs</li>
             </ul>
           </aside>
           <aside class="col-md-4">
-            <h5 class='text-secondary'>Seguinos en nuestras redes</h5>
+            <h5 class="text-secondary">Seguinos en nuestras redes</h5>
             <div class="text-center text-md-start">
               <a href="error404.html" class="link-secondary"
                 ><i class="bi bi-facebook fs-4"></i
@@ -284,7 +354,10 @@
         </div>
       </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
